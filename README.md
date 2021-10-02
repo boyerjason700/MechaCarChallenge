@@ -52,5 +52,25 @@ Lot Variance
 ![lot3_mu1500](https://user-images.githubusercontent.com/74840026/135733319-dc3b5f3c-0130-431c-adc1-47eedf63f99b.PNG)
 - P-Value for Lot 3 is 0.04 which is below our significance level of 0.05; reject null hypothesis.
 
+## Study Design: MechaCar vs Competition
+Statistical study on vehicle tailpipe emissions-MechaCar against competition
+
+What metric or metrics are you going to test?
+- Metrics- vehicle emissions
+
+What is the null hypothesis or alternative hypothesis?
+- Null Hypothesis- MechaCar produces equal or more emissions than it competition
+- Alternative Hypothesis- MechaCar produces less emissions than its competition
+
+What statistical test would you use to test the hypothesis? And why?
+- T Tests can be ran between MechaCar and individual copmetitors to show direct comparisions
+- ANOVA can be ran between MechaCar and multiple competitiors to show overall comparisions
+
+What data is needed to run the statistical test?
+- Emissions from both MechaCar and its competitors 
+
+# 
+#### Contact
+E-mail: boyerjason700@gmail.com
 
 
