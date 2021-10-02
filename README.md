@@ -1,3 +1,8 @@
+<p align="center">
+<img width="700" height="450" src="https://user-images.githubusercontent.com/74840026/135734402-340f3368-a54f-41db-b4d9-5d1349c0c985.png">                                      
+</p>
+
+
 # MechaCarChallenge
 
 ## Linear Regression to Predict MPG
@@ -16,7 +21,7 @@
 ### Summary
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-  - The overall variance for all lots is 62.3 PSI, which meets design specifications.  Summary of manufacturing lots show Lot 1 having a variance of 0.98 PSI and Lot 2 having a variance of 7.4 PSI; which are both below the design specification requirements.  However, suspension coils from Lot 3 show a variance of 170.3 PSI, which is outside of the design specification requirements.
+  - The overall variance for all lots is 62.3 PSI, which meets design specifications.  Summary of manufacturing lots show Lot 1 having a variance of 0.98 PSI and Lot 2 having a variance of 7.5 PSI; which are both below the design specification requirements.  However, suspension coils from Lot 3 show a variance of 170.3 PSI, which is outside of the design specification requirements.
 
 Total Variance
 
@@ -26,3 +31,51 @@ Total Variance
 Lot Variance
 
 ![lot_summary](https://user-images.githubusercontent.com/74840026/135732752-a77aa29a-595c-41e0-9c71-2b2ba5cc3c95.PNG)
+
+## T-Tests on Suspension Coils
+### Summary
+##### All Manufacturing Lot T Test
+
+![all_mu1500](https://user-images.githubusercontent.com/74840026/135733347-42c801f9-58d4-4cc5-ad3d-d138b4ec3c59.PNG)
+- P-Value for all lots is 0.06 which is above our significance level of 0.05; fail to reject null hypothesis.
+
+
+##### Lot 1 T Test
+
+![lot1_mu1500](https://user-images.githubusercontent.com/74840026/135733314-df781499-3b07-409e-b8a6-565fcf8177bb.PNG)
+- P-Value for Lot 1 is 1 which is above our significance level of 0.05; fail to reject null hypothesis.
+
+
+##### Lot 2 T Test
+
+![lot2_mu1500](https://user-images.githubusercontent.com/74840026/135733316-2146b29c-2aee-423a-b770-9f8a037356ff.PNG)
+- P-Value for Lot 2 is 0.06 which is above our significance level of 0.05; fail to reject null hypothesis.
+
+
+##### Lot 3 T Test
+
+![lot3_mu1500](https://user-images.githubusercontent.com/74840026/135733319-dc3b5f3c-0130-431c-adc1-47eedf63f99b.PNG)
+- P-Value for Lot 3 is 0.04 which is below our significance level of 0.05; reject null hypothesis.
+
+## Study Design: MechaCar vs Competition
+Statistical study on vehicle tailpipe emissions-MechaCar against competition
+
+What metric or metrics are you going to test?
+- Metrics- vehicle emissions
+
+What is the null hypothesis or alternative hypothesis?
+- Null Hypothesis- MechaCar produces equal or more emissions than it competition
+- Alternative Hypothesis- MechaCar produces less emissions than its competition
+
+What statistical test would you use to test the hypothesis? And why?
+- T Tests can be ran between MechaCar and individual copmetitors to show direct comparisions
+- ANOVA can be ran between MechaCar and multiple competitiors to show overall comparisions
+
+What data is needed to run the statistical test?
+- Emissions from both MechaCar and its competitors 
+
+# 
+#### Contact
+E-mail: boyerjason700@gmail.com
+
+
