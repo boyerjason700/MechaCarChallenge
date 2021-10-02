@@ -1,3 +1,8 @@
+<p align="center">
+<img width="700" height="450" src="https://user-images.githubusercontent.com/74840026/135734402-340f3368-a54f-41db-b4d9-5d1349c0c985.png">                                      
+</p>
+
+
 # MechaCarChallenge
 
 ## Linear Regression to Predict MPG
