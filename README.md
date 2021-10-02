@@ -26,3 +26,31 @@ Total Variance
 Lot Variance
 
 ![lot_summary](https://user-images.githubusercontent.com/74840026/135732752-a77aa29a-595c-41e0-9c71-2b2ba5cc3c95.PNG)
+
+## T-Tests on Suspension Coils
+### Summary
+- All Manufacturing Lot T Test
+
+![all_mu1500](https://user-images.githubusercontent.com/74840026/135733347-42c801f9-58d4-4cc5-ad3d-d138b4ec3c59.PNG)
+- P-Value for all lots is 0.06 which is above our significance level of 0.05; fail to reject null hypothesis.
+
+
+- Lot 1 T Test
+
+![lot1_mu1500](https://user-images.githubusercontent.com/74840026/135733314-df781499-3b07-409e-b8a6-565fcf8177bb.PNG)
+- P-Value for Lot 1 is 1 which is above our significance level of 0.05; fail to reject null hypothesis.
+
+
+- Lot 2 T Test
+
+![lot2_mu1500](https://user-images.githubusercontent.com/74840026/135733316-2146b29c-2aee-423a-b770-9f8a037356ff.PNG)
+- P-Value for Lot 2 is 0.06 which is above our significance level of 0.05; fail to reject null hypothesis.
+
+
+- Lot 3 T Test
+
+![lot3_mu1500](https://user-images.githubusercontent.com/74840026/135733319-dc3b5f3c-0130-431c-adc1-47eedf63f99b.PNG)
+- P-Value for Lot 3 is 0.04 which is below our significance level of 0.05; reject null hypothesis.
+
+
+
