@@ -3,13 +3,13 @@
 </p>
 
 
-# MechaCarChallenge
+# MechaCar Challenge
 
 ## Linear Regression to Predict MPG
 ### Summary
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-  - Vehicle Length and Ground Clearance(as well as Intercept) are statistically unlikely to provide random amounts of variance to the linear model. Vehicle Length having a p-value of 2.60e-12 and Ground Clearance having a p-value of 5.21e-08 both show to have statistical significance on MPG.
+  - Vehicle Length and Ground Clearance (as well as Intercept) are statistically unlikely to provide random amounts of variance to the linear model. Vehicle Length having a p-value of 2.60e-12 and Ground Clearance having a p-value of 5.21e-08 both show to have statistical significance on MPG.
 - Is the slope of the linear model considered to be zero? Why or why not?
   - The p-value from our model is below a significance level of 0.05% so we are able to reject the null hypothesis, identifying that the slope of this model is not zero. 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
@@ -68,8 +68,8 @@ What is the null hypothesis or alternative hypothesis?
 - Alternative Hypothesis- MechaCar produces less emissions than its competition
 
 What statistical test would you use to test the hypothesis? And why?
-- T Tests can be ran between MechaCar and individual copmetitors to show direct comparisions
-- ANOVA can be ran between MechaCar and multiple competitiors to show overall comparisions
+- T Tests can be ran between MechaCar and individual competitors to show direct comparisons
+- ANOVA can be ran between MechaCar and multiple competitors to show overall comparisons
 
 What data is needed to run the statistical test?
 - Emissions from both MechaCar and its competitors 
